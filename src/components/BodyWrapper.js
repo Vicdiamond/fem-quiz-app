@@ -2,7 +2,7 @@
 
 function BodyWrapper ({ children, isDarkmode }) {
   return (
-    <div className={`relative lg:h-screen`}>
+    <div className={`relative h-screen`}>
       {isDarkmode ? (
         <img
           src={`${process.env.PUBLIC_URL}/assets/images/pattern-background-mobile-dark.svg `}
